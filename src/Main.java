@@ -9,8 +9,6 @@ public class Main {
         Calculator calc = new Calculator(userInput);
         calc.printFinalDoubleOrInt();
 
-
-
         while (!userInput.equals("DONE")){
             System.out.print("Enter an expression with *, /, +, -, %, or ^(type DONE to stop): ");
             userInput = scan.nextLine();
